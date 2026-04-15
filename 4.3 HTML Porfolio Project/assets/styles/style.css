@@ -1,0 +1,12 @@
+.project-item {
+  display: inline-block;
+}
+.project-item img {
+  width: 300px;
+  height: 300px;
+}
+
+#css-flag-project img {
+  width: 400px;
+  height: 300px;
+}

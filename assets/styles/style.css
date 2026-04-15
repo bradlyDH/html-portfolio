@@ -1,0 +1,50 @@
+/* GLOBAL STYLES */
+html {
+  background-color: #0d1116;
+  color: #fff;
+  font-family: "Noto Serif", serif, sans-serif;
+}
+footer {
+  clear: both;
+}
+
+a {
+  color: #fff;
+  background-color: #ca232f;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+}
+
+/* about.html */
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+/* Index.html */
+.project-item {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+.project-item img {
+  width: 100%;
+  height: 100%;
+}
+
+#movie-rank-project p,
+#birthday-invite-project p,
+#css-flag-project p {
+  border: 1px solid #60a5fa;
+}
+
+#css-flag-project img {
+  width: 400px;
+  height: 300px;
+}

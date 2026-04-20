@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E */
+
+      .grid-container {
+        display: grid;
+        width: 748px;
+        height: 748px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-auto-rows: 20px;
+      }
+
+      .red-shape {
+        background-color: #e72f24;
+        width: 320px;
+        height: 414px;
+        border-right: 9px solid #232629;
+        border-bottom: 9px solid #232629;
+      }
+
+      .white-shape-right {
+        background-color: #f0f1ec;
+        height: 414px;
+        width: 419px;
+        border-bottom: 9px solid #232629;
+        grid-column: span 2;
+      }
+
+      .white-shape-firstcol-secondrow {
+        background-color: #f0f1ec;
+        width: 320px;
+        height: 325px;
+        border-right: 9px solid #232629;
+        border-bottom: 9px solid #232629;
+      }
+
+      .white-shape-secondcol-secondrow {
+        background-color: #f0f1ec;
+        height: 325px;
+        width: 360px;
+        border-right: 9px solid #232629;
+        border-bottom: 9px solid #232629;
+      }
+
+      .white-blue-flex-container {
+        display: flex;
+        flex-direction: column;
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+      }
+
+      .vertical-blue-rectangle {
+        background-color: #004592;
+        height: 130px;
+        width: 50px;
+        border-bottom: 10px solid #232629;
+      }
+
+      .white-rectangle-under-bluerectangle {
+        background-color: #f0f1ec;
+        width: 50px;
+        height: 215px;
+      }
+
+      .white-shape-firstcol-lastrow {
+        background-color: #f0f1ec;
+        height: 20px;
+        width: 320px;
+        border-right: 9px solid #232629;
+      }
+
+      .yellow-black-flex-container {
+        display: flex;
+      }
+
+      .yellow-rectangle {
+        background-color: #f9d01e;
+        height: 20px;
+        width: 198px;
+        border-right: 9px solid #232629;
+      }
+
+      .black-rectangle {
+        background-color: #232629;
+        width: 153px;
+        height: 20px;
+        border-right: 9px solid #232629;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div class="red-shape"></div>
+      <div class="white-shape-right"></div>
+      <div class="white-shape-firstcol-secondrow"></div>
+      <div class="white-shape-secondcol-secondrow"></div>
+      <div class="white-blue-flex-container">
+        <div class="vertical-blue-rectangle"></div>
+        <div class="white-rectangle-under-bluerectangle"></div>
+      </div>
+      <div class="white-shape-firstcol-lastrow"></div>
+      <div class="yellow-black-flex-container">
+        <div class="yellow-rectangle"></div>
+        <div class="black-rectangle"></div>
+      </div>
+    </div>
+  </body>
+</html>

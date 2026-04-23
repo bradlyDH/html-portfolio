@@ -14,71 +14,95 @@
     />
   </head>
   <body>
-    <h1 class="title-text">Bradly Harris's Portfolio</h1>
-    <h2 class="sub-title-text">Aspiring Full Stack Web Developer</h2>
-    <hr />
-
-    <h3 class="welcome-text">
-      Welcome to my portfolio! I'm excited to share my work with you.
-    </h3>
-    <div class="projects grid-container">
-      <div class="project-item grid-item" id="movie-rank-project">
-        <h4><a href="./public/movie-ranking.html">Movie Ranking Project</a></h4>
-
+    <div class="main-content-container">
+      <div class="title-content-container">
         <img
-          src="./assets/images/movie-ranking.png"
-          alt="picture of movies project"
+          id="portfolio-profile-img"
+          src="./assets/images/portfolio-profile-img.jpeg"
+          alt="profile image"
         />
-        <p>A simple movie ranking site built with basic HTML.</p>
+        <h1 class="title-text">Bradly Harris</h1>
+        <hr width="220" />
+        <p class="sub-title-text">Aspiring Full Stack Web Developer</p>
+
+        <h3 class="welcome-text">
+          Welcome to my portfolio! I'm excited to share my work with you.
+        </h3>
       </div>
-      <div class="grid-item" id="birthday-invite-project">
-        <h4>
-          <a href="./public/birthday-invite.html">Birthday Invite Project</a>
-        </h4>
+      <div class="projects flex-container">
+        <div class="project-item grid-item" id="movie-rank-project">
+          <img
+            src="./assets/images/movie-ranking.png"
+            alt="picture of movies project"
+          />
+          <p>A simple movie ranking site built with basic HTML.</p>
+          <h4>
+            <a href="./public/movie-ranking.html">Movie Ranking Project</a>
+          </h4>
+        </div>
+        <div class="grid-item" id="birthday-invite-project">
+          <img
+            src="./assets/images/birthday-invite.png"
+            alt="picture of birthday invite project"
+          />
+          <p>A simple movie ranking site built with basic HTML and some CSS.</p>
+          <h4>
+            <a href="./public/birthday-invite.html">Birthday Invite Project</a>
+          </h4>
+        </div>
 
-        <img
-          src="./assets/images/birthday-invite.png"
-          alt="picture of birthday invite project"
-        />
-        <p>A simple movie ranking site built with basic HTML and some CSS.</p>
-      </div>
+        <div class="grid-item" id="css-flag-project">
+          <img
+            src="./assets/images/css-flag.png"
+            alt="picture of css flag project"
+          />
+          <p>A simple flag built entirely with CSS.</p>
+          <h4><a href="./public/css-flag.html">CSS Flag Project</a></h4>
+        </div>
 
-      <div class="grid-item" id="css-flag-project">
-        <h4><a href="./public/css-flag.html">CSS Flag Project</a></h4>
-        <img
-          src="./assets/images/css-flag.png"
-          alt="picture of css flag project"
-        />
-        <p>A simple flag built entirely with CSS.</p>
-      </div>
+        <div class="grid-item" id="pricing-table-project">
+          <img
+            src="./assets/images/pricing-table-img.png"
+            alt="picture of the pricing table project"
+          />
+          <p>A pricing table using flexbox / media query.</p>
+          <h4>
+            <a href="./public/pricing-table.html">Pricing Table Project</a>
+          </h4>
+        </div>
 
-      <div class="grid-item" id="pricing-table-project">
-        <h4><a href="./public/pricing-table.html">Pricing Table Project</a></h4>
-        <img
-          src="./assets/images/pricing-table-img.png"
-          alt="picture of the pricing table project"
-        />
-        <p>A pricing table using flexbox / media query.</p>
-      </div>
+        <div class="grid-item" id="mondrian-project">
+          <img
+            src="./assets/images/mondrian-art-img.png"
+            alt="picture of the mondrian art project"
+          />
+          <p>
+            A picture of a piece of Mondrian artwork using CSS Grid / Flexbox.
+          </p>
+          <h4>
+            <a href="./public/mondrian-project.html">Mondrian Art Project</a>
+          </h4>
+        </div>
 
-      <div class="grid-item" id="mondrian-project">
-        <h4>
-          <a href="./public/mondrian-project.html">Mondrian Art Project</a>
-        </h4>
-        <img
-          src="./assets/images/mondrian-art-img.png"
-          alt="picture of the mondrian art project"
-        />
-        <p>
-          A picture of a piece of Mondrian artwork using CSS Grid / Flexbox.
-        </p>
+        <div class="grid-item" id="bootstrap-project">
+          <img
+            src="./assets/images/bootstrap-site-img.png"
+            alt="picture of the mondrian art project"
+          />
+          <p>This is a responsive site made using bootstrap.</p>
+          <h4>
+            <a href="./public/11.3 TinDog Project/index.html"
+              >Bootstrap Site Project</a
+            >
+          </h4>
+        </div>
       </div>
     </div>
-
-    <hr />
-    <footer>
+    <div class="footer-container">
       <a href="./public/about.html">About Me</a>
-      <a href="./public/contact.html">Contact Me</a>
-    </footer>
+      <a href="mailto:bradharris0511@gmail.com">Contact Me</a>
+      <a href="https://www.linkedin.com/in/bradly-harris-8641022a0">LinkedIn</a>
+      <p class="copyright">&copy; 2026 Bradly Harris. All rights reserved.</p>
+    </div>
   </body>
 </html>

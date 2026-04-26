@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guest List App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title-text">Guest List App</h1>
+      <div class="form-container">
+        <label for="name">Enter guest's name first and last name:</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          required
+          minlength="3"
+          maxlength="12"
+          placeholder="Enter Name"
+          pattern=""
+        />
+      </div>
+
+      <div class="btn-container">
+        <button id="addBtn">Add</button>
+        <button id="removeBtn">Remove</button>
+      </div>
+
+      <div class="namesList-container">
+        <h2 class="guest-names hidden" id="guest-names">Guest Names</h2>
+        <ul id="namesList"></ul>
+      </div>
+    </div>
+
+    <script src="./assets/scripts/script.js" defer></script>
+  </body>
+</html>

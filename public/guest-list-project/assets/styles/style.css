@@ -1,0 +1,82 @@
+html {
+  font-family: "Bodoni Moda", serif;
+}
+
+input {
+  width: 180px;
+  margin: 5px 0px 5px 0px;
+  border-radius: 8px;
+}
+
+label {
+  margin-left: 2px;
+}
+/* input[type="checkbox"] {
+} */
+
+button {
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(200, 200, 200, 0.2);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.namesList-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.namesList-container > h2 {
+  align-self: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-container {
+  display: flex;
+  margin-right: 179px;
+}
+
+#addBtn {
+  border-radius: 50px;
+  background: rgb(0, 0, 255, 0.4);
+}
+
+#addBtn:hover {
+  background: blue;
+  padding: 5px;
+  font-size: 12pt;
+}
+
+#removeBtn {
+  border-radius: 50px;
+  background: rgb(255, 0, 0, 0.4);
+}
+
+#removeBtn:hover {
+  background: rgb(255, 0, 0);
+  padding: 5px;
+  font-size: 12pt;
+}

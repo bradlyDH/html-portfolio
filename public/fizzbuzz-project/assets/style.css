@@ -1,0 +1,135 @@
+:root {
+  --primary-font: "Henny Penny", system-ui;
+  --secondary-font: ont-f: "Unkempt", cursive;
+  --color-one: #111fa2;
+  --color-two: #5478ff;
+  --color-three: rgb(83, 203, 243, 0.2);
+  --color-four: #111fa2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  font-family: var(--secondary-font);
+  list-style: none;
+  padding: 5px;
+}
+
+button {
+  width: 150px;
+  margin: 5px;
+  align-self: center;
+  border-radius: 10px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  background: linear-gradient(
+    125deg,
+    #ffde42,
+    #d62828,
+    #f77f00,
+    #53cbf3,
+    #fcbf49,
+    #5478ff
+  );
+}
+
+#fizz-buzz-btn {
+  margin-right: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  justify-content: center;
+}
+
+.hero-container {
+  width: 100%;
+  color: var(--color-two);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-three);
+}
+
+.sub-title {
+  font-family: var(--secondary-font);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.output-container {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    125deg,
+    var(--color-one),
+    var(--color-two),
+    #53cbf3,
+    var(--color-four)
+  );
+}
+
+.output-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    align-self: center;
+  }
+
+  .hero-container {
+    font-size: 12px;
+    align-self: center;
+    width: 100%;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+  button {
+    font-size: 25px;
+  }
+
+  .hero-container {
+    font-size: 30px;
+  }
+
+  .output-items {
+    font-size: 2rem;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1440px) {
+}
